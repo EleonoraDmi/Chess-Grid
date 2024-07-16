@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+.Container {
+    padding: 0 150px 0;
+    display: grid;
+    grid-template-rows: repeat(12);
+    grid-template-columns: repeat(12);
+}
+.item_4 {
+    border: 1px solid red;
+    grid-area: 1/1/4/4;
+    height: 120px;
+}
+.item_3 {
+    border: 1px solid red;
+    grid-area: 4/4/7/7;
+    height: 120px;
+}
+.item_2 {
+    border: 1px solid red;
+    grid-area: 7/7/10/10;
+    height: 120px;
+}
+.item_1 {
+    border: 1px solid red;
+    grid-area: 10/10/13/13;
+    height: 120px;
+}
